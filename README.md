@@ -2,6 +2,8 @@
 
 A simple chat application using socket.io.
 
+## Starting the backend: First go to the backend folder in your terminal/powershell
+
 1. Install all the packages:
 
     ```bash
