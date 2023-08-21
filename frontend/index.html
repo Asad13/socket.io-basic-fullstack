@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socket.io - Basic Chat App</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script type="module" src="./scripts/main.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <div class="chat"></div>
+      <div class="chat-box">
+        <div class="chat-box-row message-box-container">
+          <div class="chat-box-item message-box">
+            <textarea name="message" id="message" rows="1"></textarea>
+          </div>
+          <div class="chat-box-btn message-btn">
+            <input type="button" value="send" id="sendBtn" />
+          </div>
+        </div>
+        <div class="chat-box-row room-box-container">
+          <div class="chat-box-item room-box">
+            <input type="text" name="room" id="room" />
+          </div>
+          <div class="chat-box-btn room-btn">
+            <input type="button" value="join" id="joinBtn" />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
